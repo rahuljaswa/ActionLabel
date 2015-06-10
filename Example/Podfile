@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'ActionLabel', :exclusive => true do
+  pod "ActionLabel", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "ActionLabel", :path => "../"
+
+  pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+end

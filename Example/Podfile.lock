@@ -1,0 +1,20 @@
+PODS:
+  - ActionLabel (0.1.1)
+  - FBSnapshotTestCase (1.5)
+  - Kiwi (2.3.1)
+
+DEPENDENCIES:
+  - ActionLabel (from `../`)
+  - FBSnapshotTestCase
+  - Kiwi
+
+EXTERNAL SOURCES:
+  ActionLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ActionLabel: c25092c1fecf35f0dd57ed303363012d1d5cbe31
+  FBSnapshotTestCase: e2914fbaabccea1dcc773d6a16b1c24540642488
+  Kiwi: 73e1400209055ee9c8ba78c6012b6b642d0fb9f7
+
+COCOAPODS: 0.35.0
